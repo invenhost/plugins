@@ -25,3 +25,6 @@
 [submodule "plugins/inventree-apprise"]
 	path = plugins/inventree-apprise
 	url = https://github.com/matmair/inventree-apprise
+[submodule "plugins/inventree-digikey"]
+	path = plugins/inventree-digikey
+	url = https://github.com/matmair/inventree-digikey
