@@ -7,3 +7,6 @@
 [submodule "plugins/inventree-wled-locator"]
 	path = plugins/inventree-wled-locator
 	url = https://github.com/matmair/inventree-wled-locator
+[submodule "plugins/GitToTree"]
+	path = plugins/GitToTree
+	url = https://github.com/matmair/GitToTree
