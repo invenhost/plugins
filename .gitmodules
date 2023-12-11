@@ -16,3 +16,6 @@
 [submodule "home"]
 	path = home
 	url = https://github.com/invenhost/home
+[submodule "plugins/project-169"]
+	path = plugins/project-169
+	url = https://git.invenhost.com/matmair/project-169
