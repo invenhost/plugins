@@ -4,3 +4,6 @@
 [submodule "plugins/inventree-approval"]
 	path = plugins/inventree-approval
 	url = https://github.com/matmair/inventree-approval/
+[submodule "plugins/inventree-wled-locator"]
+	path = plugins/inventree-wled-locator
+	url = https://github.com/matmair/inventree-wled-locator
