@@ -28,3 +28,6 @@
 [submodule "plugins/inventree-digikey"]
 	path = plugins/inventree-digikey
 	url = https://github.com/matmair/inventree-digikey
+[submodule "plugins/inventree-zapier"]
+	path = plugins/inventree-zapier
+	url = https://github.com/matmair/inventree-zapier
