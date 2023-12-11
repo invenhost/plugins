@@ -13,3 +13,6 @@
 [submodule "plugins/DeviceToTree"]
 	path = plugins/DeviceToTree
 	url = https://github.com/matmair/DeviceToTree
+[submodule "home"]
+	path = home
+	url = https://github.com/invenhost/home
