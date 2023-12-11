@@ -1,0 +1,3 @@
+[submodule "plugins/invenhost-core"]
+	path = plugins/invenhost-core
+	url = https://github.com/invenhost/invenhost-core
