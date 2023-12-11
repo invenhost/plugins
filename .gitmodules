@@ -34,3 +34,6 @@
 [submodule "plugins/inventree-rapidoc"]
 	path = plugins/inventree-rapidoc
 	url = https://github.com/matmair/inventree-rapidoc
+[submodule "plugins/inventree-kom2"]
+	path = plugins/inventree-kom2
+	url = https://github.com/matmair/inventree-kom2
