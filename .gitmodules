@@ -19,3 +19,6 @@
 [submodule "plugins/project-169"]
 	path = plugins/project-169
 	url = https://git.invenhost.com/matmair/project-169
+[submodule "plugins/inventree-shopify"]
+	path = plugins/inventree-shopify
+	url = https://github.com/matmair/inventree-shopify
