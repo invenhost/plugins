@@ -10,3 +10,6 @@
 [submodule "plugins/GitToTree"]
 	path = plugins/GitToTree
 	url = https://github.com/matmair/GitToTree
+[submodule "plugins/DeviceToTree"]
+	path = plugins/DeviceToTree
+	url = https://github.com/matmair/DeviceToTree
