@@ -1,0 +1,25 @@
+site:
+  title: InvenHost Docs
+  start_page: invenhost::start.adoc
+  robots: allow 
+  keys: 
+    umami: 84b86573-caa2-4afd-8bde-b27962a8a18f
+content:
+  edit_url: '{web_url}/blob/{refname}/{path}'
+  sources:
+  - url: https://gitlab.com/antora/demo/demo-component-a.git
+    branches: HEAD
+  - url: https://gitlab.com/antora/demo/demo-component-b.git
+    branches: [v2.0, v1.0]
+    start_path: docs
+  - url: https://github.com/invenhost/plugins-meta-docs.git
+    branches: main
+    start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+antora:
+  extensions:
+  - '@antora/lunr-extension'

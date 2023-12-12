@@ -1,24 +1,6 @@
 [submodule "plugins/invenhost-core"]
 	path = plugins/invenhost-core
 	url = https://github.com/invenhost/invenhost-core
-[submodule "plugins/inventree-approval"]
-	path = plugins/inventree-approval
-	url = https://github.com/matmair/inventree-approval/
-[submodule "plugins/inventree-wled-locator"]
-	path = plugins/inventree-wled-locator
-	url = https://github.com/matmair/inventree-wled-locator
-[submodule "plugins/GitToTree"]
-	path = plugins/GitToTree
-	url = https://github.com/matmair/GitToTree
-[submodule "plugins/DeviceToTree"]
-	path = plugins/DeviceToTree
-	url = https://github.com/matmair/DeviceToTree
-[submodule "home"]
-	path = home
-	url = https://github.com/invenhost/home
-[submodule "plugins/project-169"]
-	path = plugins/project-169
-	url = https://git.invenhost.com/matmair/project-169
 [submodule "plugins/inventree-shopify"]
 	path = plugins/inventree-shopify
 	url = https://github.com/matmair/inventree-shopify
