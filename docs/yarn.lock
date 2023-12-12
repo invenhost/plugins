@@ -16,7 +16,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antora/cli@npm:3.1":
+"@antora/cli@npm:^3.1.5":
   version: 3.1.5
   resolution: "@antora/cli@npm:3.1.5"
   dependencies:
@@ -159,7 +159,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antora/site-generator@npm:3.1":
+"@antora/site-generator@npm:^3.1.5":
   version: 3.1.5
   resolution: "@antora/site-generator@npm:3.1.5"
   dependencies:
@@ -1658,9 +1658,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@antora/cli": "npm:3.1"
+    "@antora/cli": "npm:^3.1.5"
     "@antora/lunr-extension": "npm:^1.0.0-alpha.8"
-    "@antora/site-generator": "npm:3.1"
+    "@antora/site-generator": "npm:^3.1.5"
   languageName: unknown
   linkType: soft
 
