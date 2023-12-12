@@ -1,6 +1,9 @@
 site:
   title: InvenHost Docs
   start_page: component-b::index.adoc
+  robots: allow 
+  keys: 
+    umami: 84b86573-caa2-4afd-8bde-b27962a8a18f
 content:
   sources:
   - url: https://gitlab.com/antora/demo/demo-component-a.git
