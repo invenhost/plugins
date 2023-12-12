@@ -1,16 +1,19 @@
 site:
   title: InvenHost Docs
-  start_page: component-b::index.adoc
+  start_page: invenhost::start.adoc
   robots: allow 
   keys: 
     umami: 84b86573-caa2-4afd-8bde-b27962a8a18f
 content:
+  edit_url: '{web_url}/blob/{refname}/{path}'
   sources:
   - url: https://gitlab.com/antora/demo/demo-component-a.git
     branches: HEAD
   - url: https://gitlab.com/antora/demo/demo-component-b.git
     branches: [v2.0, v1.0]
     start_path: docs
+  - url: ../meta-docs
+    branches: HEAD
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
