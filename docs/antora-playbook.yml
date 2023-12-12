@@ -12,8 +12,9 @@ content:
   - url: https://gitlab.com/antora/demo/demo-component-b.git
     branches: [v2.0, v1.0]
     start_path: docs
-  - url: ../meta-docs
-    branches: HEAD
+  - url: https://github.com/invenhost/plugins-meta-docs.git
+    branches: main
+    start_path: docs
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable

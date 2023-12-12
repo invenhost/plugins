@@ -1,2 +1,0 @@
-* xref:start.adoc[]
-* xref:learnings.adoc[]
