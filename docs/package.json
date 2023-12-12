@@ -5,5 +5,9 @@
   },
   "dependencies": {
     "@antora/lunr-extension": "^1.0.0-alpha.8"
+  },
+  "packageManager": "yarn@4.0.2",
+  "engines": {
+    "node": ">=19.0.0"
   }
 }

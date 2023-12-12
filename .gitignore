@@ -134,5 +134,10 @@ dmypy.json
 node_modules/
 node_modules
 
-
-src/inventree_approval/static/inventree_approval/
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
