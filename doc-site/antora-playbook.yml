@@ -10,7 +10,7 @@ content:
   - url: https://github.com/matmair/inventree-approval.git
     branches: main
     start_path: docs
-  - url: https://github.com/invenhost/plugins-meta-docs.git
+  - url: https://github.com/invenhost/plugins.git
     branches: main
     start_path: docs
 ui:
