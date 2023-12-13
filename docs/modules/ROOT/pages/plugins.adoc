@@ -1,14 +1,16 @@
 # Plugins
+
 The following plugins are currently either package or source available as part of the InvenHost project.
 
-## Licensing and Copyright
+## Impotant notes on plugins
+### Licensing and Copyright
 
 The distinction between *package* and *source available* and *open source* is important. +
 While a package might be available for a plugin, that does not give anyone the right to reuse any of the underlying source code. InvenHost maintains the copyright and reserves all rights.
 
 Please respect the limitations of the individual licenses, to maintain all rights we will have to enforce them if we become aware of infractions.
 
-## Installing from the package repository
+### Installing from the package repository [[setup_repo]]
 
 To install a plugin from the package repository you must add the repository to your pip configuration.
 
@@ -28,7 +30,7 @@ WARNING: With this configuration packages from pypi, the official python package
 
 ## Available Plugins
 
-### inventree-approval
+### Approvals
 
 WARNING: Development status: Public access beta
 
@@ -38,11 +40,9 @@ A current testing and development focus is on the ability to request approval fo
 
 [TIP]
 ====
-Package: Available
-
-Source: Closed
-
-Setup plugin repo and install as
+Package: Available +
+Source: Closed +
+<<setup_repo, Setup plugin repo>> and install as +
 ```
 inventree-approval
 ```
