@@ -1,0 +1,13 @@
+# Learnings
+
+This page is a scratchpad with current processes / thoughts.
+
+## Plugins
+
+Sample plugin / layout https://github.com/matmair/inventree-shopify[inventree-shopify]
+
+Technical documentation via asciidoc + Antora seems to work well.  Everything can be connected to a central documentation site - ensuring seamless publication in various formats and with consistent UI.
+
+## Services
+
+Using GitHub as the authentication source seems to be running very reliable.
