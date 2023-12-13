@@ -1,5 +1,5 @@
 # Services
-The following services are currently available as part of the Invenhost platform.
+The following services are currently available as part of the InvenHost project.
 
 ## git.invenhost.com - package/git repo
 
@@ -9,18 +9,18 @@ It is mainly used for hosting the public package repository, but also hosts code
 The service is running on OVH servers in the EU.
 Supplementary services:
 
-- S3 storage by DigitalOceans Spaces (Germany)
+- S3 storage by DigitalOcean (Germany)
 - PostgreSQL database by DigitalOcean (Germany)
 - DDoS protection by Cloudflare (Global)
 - DNS by Cloudflare (Global)
-- Massmail delivery by Mailjet (Germany)
+- Mass mail delivery by Mailjet (Germany)
 - Backup storage by Backblaze B2 (EU)
 
 ## doc.invenhost.com - documentation
 
 Based on https://antora.org/[Antora], doc.invenhost.com is a self-hosted documentation service.
-It is used for hosting the documentation for all Invenhost services, as well as the documentation for all public plugins.
-Due to the architecture of Antora, documentation for 3rd party plugins could also be included as long as the builder has access to the source repository.
+It is used for hosting the documentation for all InvenHost services, as well as the documentation for all public plugins.
+Due to the architecture of Antora, documentation for 3rd party plugins could also be included if the builder has access to the source repository.
 
 The service is running on Cloudflare Pages on their global compute, using their global CDN, DDos and DNS services.
 Supplementary services:
@@ -29,5 +29,5 @@ Supplementary services:
 
 ## umami.invenhost.com - analytics
 
-Based on https://umami.is/[Umami], umami.invenhost.com is a self-hosted analytics service running on a prviate cluster in the EU.
-It is used for privacy-respecting tracking of all Invenhost services.
+Based on https://umami.is/[Umami], umami.invenhost.com is a self-hosted analytics service running on a private cluster in the EU.
+It is used for privacy-respecting tracking of all InvenHost services.
