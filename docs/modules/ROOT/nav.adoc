@@ -1,7 +1,7 @@
 * xref:start.adoc[]
 * xref:learnings.adoc[]
 
-.Products
+.Results
 ** xref:services.adoc[]
 ** xref:plugins.adoc[]
 

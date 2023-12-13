@@ -1,4 +1,4 @@
-= Product Docs
+= Project Docs
 
 InvenHost is a project by @matmair that aims to enhance and extend the functionality of core InvenTree to support commercial and enterprise use cases.
 
