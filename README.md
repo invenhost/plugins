@@ -1,6 +1,7 @@
 # InvenHost plugins
 
-Source for the central docs site and plugin repo.
+Source for the central docs site and plugin repo.  
+Nothing intresting for the public is happening here, go to [the docs site](https://doc.invenhost.com/invenhost) for properly layouted information.
 
 ## Layout
 ```
