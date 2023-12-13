@@ -36,7 +36,7 @@ WARNING: Development status: Public access beta
 
 Adds a general-purpose approval system to InvenTree. It allows users to request approval for certain actions, and for other users to approve or reject those requests. It is designed to be flexible and extensible and can be used to implement a wide range of approval workflows.
 
-A current testing and development focus is on the ability to request approval for orders (especial purchase orders), the plugin by default blocks unapproved orders from being placed.
+The current testing and development focus is on the ability to request approval for orders (especial purchase orders), the plugin by default blocks unapproved POs from being placed.
 
 [TIP]
 ====
