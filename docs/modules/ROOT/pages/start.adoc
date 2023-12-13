@@ -47,7 +47,7 @@ For successful operations of (a) plugin repository a few pieces are needed:
 - CI templates / possibly infrastructure
 - (?) Feedback mechanism / hub
 - (?) Payments --> Stripe
-- (?) IOC for the whole infrastructure
+- (?) IaC for the whole infrastructure
 - (?) SecOps setup
 
 There is a lot to prototype, develop and field-test. If this project comes to working conclusions, upstreaming is not out of the question.
