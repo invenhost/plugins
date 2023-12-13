@@ -1,0 +1,50 @@
+# Plugins
+The following plugins are currently either package or source available as part of the InvenHost project.
+
+## Licensing and Copyright
+
+The distinction between *package* and *source available* and *open source* is important. +
+While a package might be available for a plugin, that does not give anyone the right to reuse any of the underlying source code. InvenHost maintains the copyright and reserves all rights.
+
+Please respect the limitations of the individual licenses, to maintain all rights we will have to enforce them if we become aware of infractions.
+
+## Installing from the package repository
+
+To install a plugin from the package repository you must add the repository to your pip configuration.
+
+1. Place the repo URL on top of your `plugins.txt`
++
+```plugins.txt
+--index-url https://git.invenhost.com/api/packages/invenhost-c1/pypi/simple/
+```
+
+2. Enable the global plugin settings: Check plugins on startup, Enable app integration, Enable URL integration
+
+3. Restart the server
+
+Now you can install c1 plugins directly via the normal method like web interface or API.
+
+WARNING: With this configuration packages from pypi, the official python package repository, are only queried after the InvenHost repository. This means that if a package is available on both repositories, the InvenHost version will be installed. This is intentional, as we might need to make changes to the package to make it work with InvenHost. Please consider this as part of your risk assessment.
+
+## Available Plugins
+
+### inventree-approval
+
+WARNING: Development status: Public access beta
+
+Adds a general-purpose approval system to InvenTree. It allows users to request approval for certain actions, and for other users to approve or reject those requests. It is designed to be flexible and extensible and can be used to implement a wide range of approval workflows.
+
+A current testing and development focus is on the ability to request approval for orders (especial purchase orders), the plugin by default blocks unapproved orders from being placed.
+
+[TIP]
+====
+Package: Available
+
+Source: Closed
+
+Setup plugin repo and install as
+```
+inventree-approval
+```
+
+====

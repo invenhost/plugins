@@ -3,6 +3,7 @@
 
 .Products
 ** xref:services.adoc[]
+** xref:plugins.adoc[]
 
 ._External links_ 
 * https://github.com/invenhost/plugins[Code]
