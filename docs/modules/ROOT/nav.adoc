@@ -1,2 +1,8 @@
 * xref:start.adoc[]
 * xref:learnings.adoc[]
+. Products
+** xref:services.adoc[]
+
+._External links_ 
+* https://github.com/invenhost/plugins[Code]
+* https://git.invenhost.com/invenhost-c1/-/packages[Public Plugin repo]
