@@ -1,6 +1,6 @@
 * xref:start.adoc[]
 * xref:learnings.adoc[]
-. Products
+.Products
 ** xref:services.adoc[]
 
 ._External links_ 
