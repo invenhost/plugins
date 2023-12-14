@@ -42,6 +42,7 @@ The current testing and development focus is on the ability to request approval 
 ====
 Package: Available +
 Source: Closed +
+Detail page: <<approval_plugin:start, Approvals plugin>> +
 <<setup_repo, Setup plugin repo>> and install as +
 ```
 inventree-approval
