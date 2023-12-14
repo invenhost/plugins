@@ -1,6 +1,6 @@
 name: invenhost
 title: InvenHost
-version: main
+version: dev
 start_page: start.adoc
 asciidoc:
   attributes:
