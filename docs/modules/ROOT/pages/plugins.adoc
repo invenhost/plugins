@@ -42,7 +42,7 @@ The current testing and development focus is on the ability to request approval 
 ====
 Package: Available +
 Source: Closed +
-Detail page: <<xref:inventree_approval::start, Approvals plugin>> +
+Detail page: xref:inventree_approval::start.adoc[Approvals plugin] +
 <<setup_repo, Setup plugin repo>> and install as +
 ```
 inventree-approval
