@@ -11,7 +11,7 @@ content:
     branches: main
     start_path: docs
   - url: https://github.com/invenhost/plugins.git
-    branches: main
+    branches: [main, dev, v*]
     start_path: docs
 ui:
   bundle:
