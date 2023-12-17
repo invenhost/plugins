@@ -19,6 +19,8 @@ jobs:
             restore-keys: |
                 ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
       - name: Build
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
         run: cd web && yarn install && yarn build
       - name: Publish
         uses: cloudflare/pages-action@1
