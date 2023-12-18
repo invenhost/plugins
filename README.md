@@ -8,3 +8,5 @@ Nothing intresting for the public is happening here, go to [the docs site](https
 doc-site        Settings and layouting for docs site
 docs            Meta docs for the project
 plugins         Source for already open-sourced plugins
+web             Source for the main website
+```
