@@ -43,7 +43,7 @@ The current testing and development focus is on the ability to request approval 
 Package: Available +
 Source: Closed +
 Detail page: xref:inventree_approval:ROOT:home.adoc[Approvals plugin] +
-<<setup_repo, Setup plugin repo>> and install as +
+xref:setup_repo[Setup plugin repo] and install as +
 ```
 inventree-approval
 ```

@@ -8,7 +8,7 @@ content:
   edit_url: '{web_url}/blob/{refname}/{path}'
   sources:
   - url: https://github.com/matmair/inventree-approval.git
-    branches: main
+    branches: main, dev
     start_path: docs
   - url: https://github.com/invenhost/plugins.git
     branches: [main, dev, v*]
