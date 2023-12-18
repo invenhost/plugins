@@ -8,15 +8,14 @@ author: Matthias Mair
 # Soft Launching InvenHost
 
 Staring a new project is a catch-22. You have to start somewhere but you know that the current state is not what you aspire it to be. Getting feedback is a bit hard if you do not show anything.
-Therefore, I am soft launching the InvenHost project.
 
-Feel free to reach out to code@mjmair.com if you have any questions or feedback.
+Therefore, I am soft launching the InvenHost project. Feel free to reach out to code@mjmair.com if you have any questions or feedback.
 
 ## What is InvenHost?
 
-InvenHosts goal is to provide enterprise plugins for InvenTree ([InvenTree](https://inventree.org/) is an open-source inventory management system with a focus on electronics manufacturing).
+InvenHosts goal is to provide **enterprise plugins** for InvenTree ([InvenTree](https://inventree.org/) is an open-source inventory management system with a focus on electronics manufacturing).
 
-This entails developing packages and providing the infrastructure to develop, test, document, license, distribute and maintain plugins.
+This entails **developing plugins** and **providing** the **infrastructure** to develop, test, document, license, distribute and maintain open and closed plugins.
 
 ## Who is InvenHost for?
 
@@ -27,11 +26,16 @@ The main audience are companies / commercial users of InvenTree that need functi
 
 ## Why InvenHost?
 
-InvenTree is a great project and I have been contributing to it for a while now. However, it is a MIT licensed community project and as such it is hard to get feedback. We do not even know how many people use it. This makes it hard to justify spending time on features that are not used by the core team, their employees and friends.
+InvenTree is a great project and I have been contributing to it for a while now. However, it is a MIT licensed community project and as such it is hard to get any feedback from users.
 
-InvenHost is a way to experiment with models that allow for other models of distribution (telemetry for example) and monetization (subscriptions, support, consulting, custom development). The end goal is not to make money but have the freedom to experiment without exposing the core project.
+The project does not even know how many people use it. This makes it hard to justify spending time on features that are not used by the core team, their employers and friends. We tried surveys, enabeling discussions, creating social media accounts, making a website, etc. but nothing really worked.
 
-## Why the name InvenHost?
+InvenHost is a way to experiment with other models of licensing (less permisive), distribution (required telemetry) and monetization (subscriptions, support, consulting, custom development).
+
+My goal is not to make money but have the freedom to experiment without exposing the core project to any risk.
+The only time you seem to get feedback is when users tell you they do not like something.
+
+## Inven ... Host?
 
 I already owned the domain + GitHub org and it has a good standing with the big email providers, so I chose to keep using it.
 The host refers both to the hosting of instances for friends and family (which I have been doing for a while under this domain) as well as the hosting of plugins and tools.
