@@ -1,4 +1,7 @@
-on: [push]
+on:
+  push:
+    paths:
+      - "web/**"
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -10,16 +13,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-            fetch-depth: 0
+          fetch-depth: 0
       - name: Build Cache
         uses: actions/cache@v3
         with:
-            path: |
-                ~/.npm
-                ${{ github.workspace }}/web/.next/cache
-            key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
-            restore-keys: |
-                ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+          path: |
+            ~/.npm
+            ${{ github.workspace }}/web/.next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
       - name: Build
         env:
           NEXT_TELEMETRY_DISABLED: 1
