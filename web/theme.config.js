@@ -4,7 +4,7 @@ export default {
   footer: (
     <footer>
       <small>
-        <time>{YEAR}</time> © InvenHost by <a href="https://mjmair.com">@matmair</a>.
+        <time>{YEAR}</time> © InvenHost by @matmair <a href="https://mjmair.com">mjmair</a>.
         <a href="/feed.xml">RSS</a>
       </small>
       <style jsx>{`
