@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   const meta = {
     title: 'InvenHost',
-    description: 'Extend InvenTree for your busniess use case.',
+    description: 'Extend InvenTree for your use case.',
   }
 
   return (
