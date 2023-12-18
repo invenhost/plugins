@@ -18,6 +18,7 @@ export default function Document() {
         <meta name="twitter:site" content="@matthiasjmair" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
+        <script async src="https://umami.invenhost.com/script.js" data-website-id="84b86573-caa2-4afd-8bde-b27962a8a18f"></script>
       </Head>
       <body>
         <Main />
