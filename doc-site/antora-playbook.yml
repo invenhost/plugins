@@ -5,6 +5,8 @@ site:
   url: https://doc.invenhost.com
   keys: 
     umami: 84b86573-caa2-4afd-8bde-b27962a8a18f
+urls:
+  html_extension_style: indexify
 content:
   edit_url: '{web_url}/blob/{refname}/{path}'
   sources:
