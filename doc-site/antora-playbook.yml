@@ -2,6 +2,7 @@ site:
   title: InvenHost Docs
   start_page: invenhost::start.adoc
   robots: allow 
+  url: https://doc.invenhost.com
   keys: 
     umami: 84b86573-caa2-4afd-8bde-b27962a8a18f
 content:
