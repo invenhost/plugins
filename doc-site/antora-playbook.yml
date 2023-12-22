@@ -9,6 +9,7 @@ urls:
   html_extension_style: indexify
 content:
   edit_url: '{web_url}/blob/{refname}/{path}'
+  tags: [v*, '!v*b*']
   sources:
   - url: https://github.com/matmair/inventree-approval.git
     branches: main, dev
