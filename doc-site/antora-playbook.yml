@@ -27,3 +27,7 @@ ui:
 antora:
   extensions:
   - '@antora/lunr-extension'
+asciidoc:
+  extensions:
+  - asciidoctor-emoji-macro
+  - asciidoctor-kroki
