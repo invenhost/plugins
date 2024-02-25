@@ -7,7 +7,7 @@
     "@asciidoctor/core": "^3.0.2",
     "asciidoctor-kroki": "^0.18.1"
   },
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "yarn@4.1.0",
   "engines": {
     "node": ">=19.0.0"
   }
