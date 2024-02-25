@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "@antora/cli": "^3.1.5",
+    "@antora/cli": "^3.1.7",
     "@antora/lunr-extension": "^1.0.0-alpha.8",
     "@antora/pdf-extension": "^1.0.0-alpha.7",
-    "@antora/site-generator": "^3.1.5",
-    "@asciidoctor/core": "^3.0.2",
+    "@antora/site-generator": "^3.1.7",
+    "@asciidoctor/core": "^3.0.4",
     "asciidoctor-kroki": "^0.18.1"
   },
   "packageManager": "yarn@4.1.0",
