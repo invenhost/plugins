@@ -16,6 +16,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@antora/assembler@npm:1.0.0-alpha.7":
+  version: 1.0.0-alpha.7
+  resolution: "@antora/assembler@npm:1.0.0-alpha.7"
+  dependencies:
+    "@antora/expand-path-helper": "npm:~2.0"
+    braces: "npm:~3.0"
+    js-yaml: "npm:~4.1"
+    picomatch: "npm:~3.0"
+    vinyl: "npm:~2.2"
+  checksum: f7081c44d9ff74b4ced8d37409e458d294f124aa85ea4be5fe5cd29dc84c27eaa54f8c5e2b534d7f8cf21137b551ceae5eb80cf21eb3945f9fc34be778538e77
+  languageName: node
+  linkType: hard
+
 "@antora/cli@npm:^3.1.5":
   version: 3.1.5
   resolution: "@antora/cli@npm:3.1.5"
@@ -135,6 +148,15 @@ __metadata:
     handlebars: "npm:~4.7"
     require-from-string: "npm:~2.0"
   checksum: 0e4de0f316f898c591fc5f59bb8372b951cbc0b646a5966a834286d1cae2e5da34451dba0bf27b6971fac1e533b87942ab39100faf5fced04eebd045be348778
+  languageName: node
+  linkType: hard
+
+"@antora/pdf-extension@npm:^1.0.0-alpha.7":
+  version: 1.0.0-alpha.7
+  resolution: "@antora/pdf-extension@npm:1.0.0-alpha.7"
+  dependencies:
+    "@antora/assembler": "npm:1.0.0-alpha.7"
+  checksum: 71d4602a7b4b35088b9169d3bd6ea7769da1ddf6d95c0cb386c2e33fbd83675246ce99326ebba71ed22af6bd6d3bbdc30fdb159128b03153a1b5add493c5ee62
   languageName: node
   linkType: hard
 
@@ -1443,6 +1465,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"picomatch@npm:~3.0":
+  version: 3.0.1
+  resolution: "picomatch@npm:3.0.1"
+  checksum: 70ec738569f1864658378b7abdab8939d15dae0718c1df994eae3346fd33daf6a3c1ff4e0c1a0cd1e2c0319130985b63a2cff34d192f2f2acbb78aca76111736
+  languageName: node
+  linkType: hard
+
 "pify@npm:^4.0.1":
   version: 4.0.1
   resolution: "pify@npm:4.0.1"
@@ -1711,6 +1740,7 @@ __metadata:
   dependencies:
     "@antora/cli": "npm:^3.1.5"
     "@antora/lunr-extension": "npm:^1.0.0-alpha.8"
+    "@antora/pdf-extension": "npm:^1.0.0-alpha.7"
     "@antora/site-generator": "npm:^3.1.5"
     "@asciidoctor/core": "npm:^3.0.2"
     asciidoctor-kroki: "npm:^0.18.1"
