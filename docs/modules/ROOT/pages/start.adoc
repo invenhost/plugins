@@ -20,8 +20,11 @@ Specific areas of interest to me are deeper file integrations and interoperabili
 
 #### Approvals
 
-TIP: This is currently in `beta`.
-https://github.com/invenhost/plugins/issues/1[EPIC here]
+Adds a general-purpose approval system to InvenTree. It allows users to request approval for certain actions, and for others to approve or reject those requests. It is designed to be flexible and extensible and can be used to implement a wide range of approval workflows.
+
+The current testing and development focus is on the ability to request approval for orders (especially purchase orders), the plugin by default blocks unapproved POs from being placed.
+
+xref:plugins.adoc#inventree_approval[Read More], https://github.com/invenhost/plugins/issues/1[EPIC here]
 
 
 #### Marketplaces
