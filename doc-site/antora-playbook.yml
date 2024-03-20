@@ -9,7 +9,7 @@ urls:
   html_extension_style: indexify
 content:
   edit_url: '{web_url}/blob/{refname}/{path}'
-  tags: [v*, '!v*b*']
+  tags: [v*, '!v*a*','!v*b*']
   sources:
   - url: https://github.com/invenhost/inventree-federation.git
     branches: main, dev
@@ -28,6 +28,7 @@ ui:
 antora:
   extensions:
   - '@antora/lunr-extension'
+  - '@antora/pdf-extension'
 asciidoc:
   extensions:
   - asciidoctor-kroki
