@@ -15,3 +15,5 @@ Another new feature is the ability to configure access/change permissions for al
 I also worked on finsihing the docs for 1.0. [Available here](https://doc.invenhost.com/inventree_approval/main/home/)
 
 The release is available on [git.invenhost.com](https://git.invenhost.com/invenhost-c1/-/packages/pypi/inventree-approval/0.6) or should be automatically updated if you have startup plugins checks enabled.
+
+![The current flow of approvals](/images/plgapr_06_intro.gif)
