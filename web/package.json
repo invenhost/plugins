@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next",
     "build": "node ./scripts/gen-rss.js && next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
@@ -18,6 +19,8 @@
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
+    "i": "^0.3.7",
+    "next-sitemap": "^4.2.3",
     "typescript": "^4.7.4"
   }
 }
