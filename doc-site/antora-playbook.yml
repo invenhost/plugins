@@ -28,6 +28,7 @@ ui:
 antora:
   extensions:
   - '@antora/lunr-extension'
+  - '@antora/pdf-extension'
 asciidoc:
   extensions:
   - asciidoctor-kroki
