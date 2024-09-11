@@ -3,15 +3,13 @@ title: Linked Data in InvenTree
 date: 2024-09-11
 description: Steps taken to enable linked data in InvenTree
 author: Matthias Mair
-tag: upstream, plugin
+tag: upstream
 ---
-import { Callout } from 'nextra/components'
 
 # Linked Data in InvenTree
 
-<Callout type="warning" emoji="⚠️">
-  This is a vision and not yet implemented. I am working hard on it though.
-</Callout>
+<strong>This is a vision and not yet implemented. I am working hard on it though.</strong>
+
 
 ```mermaid
 graph TD;
