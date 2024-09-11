@@ -4,8 +4,6 @@ date: 2023-06-04
 description: The possibilities I see in an InvenTree OSS ecosystem in the long term. My personal Zen for work on InvenTree proper.
 author: Matthias Mair
 tag: project, zen
-type: page
-display: hidden
 ---
 Tirol, Jan 2023
 The possibilities I see in an InvenTree OSS ecosystem in the long term. My personal Zen for work on InvenTree proper.
