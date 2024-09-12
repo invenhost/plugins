@@ -11,27 +11,6 @@ tag: upstream
 <strong>This is a vision and not yet implemented. I am working hard on it though.</strong>
 
 
-```mermaid
-graph TD;
-subgraph AA [Consumers]
-A[Mobile app];
-B[Web app];
-C[Node.js client];
-end
-subgraph BB [Services]
-E[REST API];
-F[GraphQL API];
-G[SOAP API];
-end
-Z[GraphQL API];
-A --> Z;
-B --> Z;
-C --> Z;
-Z --> E;
-Z --> F;
-Z --> G;
-```
-
 Version 0.17.0 of InvenTree introduces support for rich Linked Data (LD). This is in preparation for beeing able to utilize linked data formats and APIs for import and export of data in static and dynamic form.
 Example usage for this is the oportunity to map OKH files directly to InvenTree parts or a federation plugin that enables partial data exchange between compatible instances in a ressource-efficient fashion.
 
