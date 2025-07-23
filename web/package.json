@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "node ./scripts/gen-rss.js && next build",
-    "start": "next start",
+    "build": "NEXT_TELEMETRY_DISABLED=1 node ./scripts/gen-rss.js && next build",
+    "start": "NEXT_TELEMETRY_DISABLED=1 next start",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
