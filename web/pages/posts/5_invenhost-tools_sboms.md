@@ -1,6 +1,6 @@
 ---
 title: SBOMs in InvenHost tools
-date: 2025-07-25
+date: 2025-07-28
 description: InvenHost tools now provide SBOMs for InvenTree releases.
 author: Matthias Mair
 tag: tools, invenhost-tools
