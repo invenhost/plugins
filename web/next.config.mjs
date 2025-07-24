@@ -4,14 +4,12 @@ const withNextra = nextra({
   latex: true,
 
 })
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+
+export default withNextra({
+  reactStrictMode: true,
   output: 'export',
+  distDir: 'out',
   images: {
     unoptimized: true,
   },
-}
-
-export default withNextra({
-  reactStrictMode: true
 })
