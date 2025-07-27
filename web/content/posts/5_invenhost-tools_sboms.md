@@ -3,7 +3,7 @@ title: SBOMs in InvenHost tools
 date: 2025-07-28
 description: InvenHost tools now provide SBOMs for InvenTree releases.
 author: Matthias Mair
-tag: tools, invenhost-tools
+tags: [tools, invenhost-tools]
 ---
 
 InvenHost tools now provide SBOMs (Software Bill of Materials) for the core InvenTree releases. This is a step towards better transparency and security in the software supply chain.

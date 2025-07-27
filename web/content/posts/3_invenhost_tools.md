@@ -3,7 +3,7 @@ title: Introducing InvenHost tools
 date: 2024-10-01
 description: InvenHost tools provides information regarding InvenTree releases and experimental security checks.
 author: Matthias Mair
-tag: tools, invenhost-tools
+tags: [tools, invenhost-tools]
 ---
 
 > [!NOTE]
