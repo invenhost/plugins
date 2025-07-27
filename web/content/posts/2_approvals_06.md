@@ -3,7 +3,7 @@ title: Approvals 0.6 released
 date: 2024-03-20
 description: Approvals now offer to request specific users to approve/reject approvals for faster turnarounds on approvals and other improvements
 author: Matthias Mair
-tag: plugin
+tags: [plugin,]
 ---
 
 I am happy to announce the release of Approvals 0.6. This release brings a new feature that offers to request specific users to approve/reject a pull request.
