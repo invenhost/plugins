@@ -34,7 +34,7 @@ export default async function RootLayout({ children }) {
 
 const Header = () => {
   return <div style={{ flexDirection: 'row', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-    <h1>{metadata.title}</h1>
+    <h1></h1>
     <span style={{ marginBottom: '2rem' }}
     >
       <Anchor href={'/'} style={{ textDecoration: 'none', paddingRight: '1rem' }}>

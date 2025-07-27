@@ -3,10 +3,8 @@ title: Soft Launching InvenHost
 date: 2023-12-18
 description: Staring a new project is a catch-22. You have to start somewhere.
 author: Matthias Mair
-tag: project
+tags: [project]
 ---
-
-# Soft Launching InvenHost
 
 Staring a new project is a catch-22. You have to start somewhere but you know that the current state is not what you aspire it to be. Getting feedback is a bit hard if you do not show anything.
 

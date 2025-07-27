@@ -22,7 +22,7 @@ export default async function TagPage(props) {
       <h1>{title}</h1>
       {posts
         .filter(post =>
-          post.frontMatter.tag.includes(decodeURIComponent(params.tag))
+          post.frontMatter.tags.includes(decodeURIComponent(params.tag))
         )
         .map(post => (
           <PostCard key={post.route} post={post} />

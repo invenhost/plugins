@@ -13,6 +13,6 @@ export async function getPosts() {
  
 export async function getTags() {
   const posts = await getPosts()
-  const tags = posts.flatMap(post => post.frontMatter.tag)
+  const tags = posts.flatMap(post => post.frontMatter.tags)
   return tags
 }
