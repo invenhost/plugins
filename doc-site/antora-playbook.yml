@@ -11,9 +11,9 @@ content:
   edit_url: '{web_url}/blob/{refname}/{path}'
   tags: [v*, '!v*a*','!v*b*']
   sources:
-  #- url: https://github.com/invenhost/inventree-federation.git
-   # branches: main, dev
-   # start_path: docs
+  # - url: https://github.com/invenhost/inventree-federation.git
+  #   branches: main, dev
+  #   start_path: docs
   - url: https://github.com/matmair/inventree-approval.git
     branches: main, dev
     start_path: docs
