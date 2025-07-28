@@ -1,7 +1,7 @@
 = Project Docs
 Matthias Mair <code@mjmair.com>;
 
-This page is available as a pdf xref:attachment$invenhost.pdf[]
+This page is available as a pdf xref: attachment$invenhost.pdf[]
 
 InvenHost is a project by @matmair that aims to enhance and extend the functionality of core InvenTree to support commercial and enterprise use cases.
 
