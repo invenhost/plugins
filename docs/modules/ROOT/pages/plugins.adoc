@@ -30,7 +30,7 @@ WARNING: With this configuration packages from pypi, the official python package
 
 ## Available Plugins
 
-### Approvals
+### Approvals[[inventree_approval]]
 
 WARNING: Development status: Public access beta
 
