@@ -9,16 +9,16 @@
   "dependencies": {
     "gray-matter": "^4.0.3",
     "next": "^16.1.7",
-    "nextra": "^4.2.17",
-    "nextra-theme-blog": "^4.2.17",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "nextra": "^4.6.1",
+    "nextra-theme-blog": "^4.6.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "rss": "^1.2.2"
   },
   "devDependencies": {
-    "@types/node": "24.1.0",
-    "@types/react": "19.1.8",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
     "next-sitemap": "^4.2.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   }
 }
