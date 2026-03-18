@@ -5,37 +5,37 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@antora/asciidoc-loader@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/asciidoc-loader@npm:3.1.10"
+"@antora/asciidoc-loader@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/asciidoc-loader@npm:3.1.14"
   dependencies:
-    "@antora/logger": "npm:3.1.10"
+    "@antora/logger": "npm:3.1.14"
     "@antora/user-require-helper": "npm:~3.0"
     "@asciidoctor/core": "npm:~2.2"
-  checksum: 3a784f8c3ded9edae7f7bcef5abd525baebeb004d9a5e468cff10bde3b6b4050bbe9ea81357e9279b5fdf48ed8c854c3effd0009740eb502ca82ba74a349c26e
+  checksum: 0650ffa266b3fbfb942da710ca388147dfa9ffe437ae133a8e38a34b0b2d8051de5e169221861f0f5dba2da9712bad1c6bc3325286d39a4bb0734ff5b4830934
   languageName: node
   linkType: hard
 
-"@antora/cli@npm:^3.1.10":
-  version: 3.1.10
-  resolution: "@antora/cli@npm:3.1.10"
+"@antora/cli@npm:^3.1.14":
+  version: 3.1.14
+  resolution: "@antora/cli@npm:3.1.14"
   dependencies:
-    "@antora/logger": "npm:3.1.10"
-    "@antora/playbook-builder": "npm:3.1.10"
+    "@antora/logger": "npm:3.1.14"
+    "@antora/playbook-builder": "npm:3.1.14"
     "@antora/user-require-helper": "npm:~3.0"
     commander: "npm:~11.1"
   bin:
     antora: bin/antora
-  checksum: 2af5e5737b18afd8752ef9b57a913892d2760e3b9513f7f3b293d74081f687c75f97f77f5f4bb993556d82b1b2958578c1c0b9e435da0338d66eb04ad33e65aa
+  checksum: 5786e9ddf26793f5d23a9dce4c0a83a7345c992471da08eec9b0b397c2b82edd75aa36ef5feaa3c72c5aaac85f86950a523eedd0f829d6184260a5e4ca1cb259
   languageName: node
   linkType: hard
 
-"@antora/content-aggregator@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/content-aggregator@npm:3.1.10"
+"@antora/content-aggregator@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/content-aggregator@npm:3.1.14"
   dependencies:
     "@antora/expand-path-helper": "npm:~3.0"
-    "@antora/logger": "npm:3.1.10"
+    "@antora/logger": "npm:3.1.14"
     "@antora/user-require-helper": "npm:~3.0"
     braces: "npm:~3.0"
     cache-directory: "npm:~2.0"
@@ -49,28 +49,28 @@ __metadata:
     should-proxy: "npm:~1.0"
     simple-get: "npm:~4.0"
     vinyl: "npm:~3.0"
-  checksum: 57303f2832b13972574422109285a3398b348e1c29b745502de844bf27a4e749ddfce5ae79c4c6f9b1fd2115fc0a3139d5ced103207674cc81ab76c1881634c6
+  checksum: de3609d760e882ddac2406d31f62df69f8a96236c5c7bf80175be548b9daf1aa9346e581cee8523efe8467de3031233ef799b87ecfa8d35c84593d5b344877f1
   languageName: node
   linkType: hard
 
-"@antora/content-classifier@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/content-classifier@npm:3.1.10"
+"@antora/content-classifier@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/content-classifier@npm:3.1.14"
   dependencies:
-    "@antora/asciidoc-loader": "npm:3.1.10"
-    "@antora/logger": "npm:3.1.10"
+    "@antora/asciidoc-loader": "npm:3.1.14"
+    "@antora/logger": "npm:3.1.14"
     mime-types: "npm:~2.1"
     vinyl: "npm:~3.0"
-  checksum: 362ace7753aa2702f6bccc1a0e02e9acf565019da7cef86fc1a3e772d16ec26a002f1d7f64c5dfab819829b36d5b4f216d0bb23f1727a62b92248ed807e72552
+  checksum: 44a2fe7774001b591941c320c7172bb30a5e5531821e61cc92c179f3ea568c2a74991f6eca23c00bdbcf7a6fe7163ecc1766664dbc4867492eee0300ffdef4c0
   languageName: node
   linkType: hard
 
-"@antora/document-converter@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/document-converter@npm:3.1.10"
+"@antora/document-converter@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/document-converter@npm:3.1.14"
   dependencies:
-    "@antora/asciidoc-loader": "npm:3.1.10"
-  checksum: b4975d3c5109746264ddf88747c1337bda0a4dbd6e074d1815c93f7d2ac503e2164845024dfa083578db0d21a61cee2ca27345d84d286d4be811c56af1f908f2
+    "@antora/asciidoc-loader": "npm:3.1.14"
+  checksum: d992e7dd81bb0eed6672ba2a46d1e52422202760f6944873413935fce691e7b4aa395a039c025d2e448483282438668ce4e41f09a79ff9426fb217ec677fbb48
   languageName: node
   linkType: hard
 
@@ -81,126 +81,126 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antora/file-publisher@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/file-publisher@npm:3.1.10"
+"@antora/file-publisher@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/file-publisher@npm:3.1.14"
   dependencies:
     "@antora/expand-path-helper": "npm:~3.0"
     "@antora/user-require-helper": "npm:~3.0"
     vinyl: "npm:~3.0"
     yazl: "npm:~2.5"
-  checksum: 26e0c38fb2eebf233abcdc002a9baaf7378635480e248eebfe433338609b53fc6579121d000b8be573f2588f9afd25fc2355c7e4beaca5194db11bef86d78bf4
+  checksum: b048370295fcced483a17a368ce0a4ef0639d0a2d10276b6446a5117c70189dccaa5bfa677621a9fd2ddd3316b4d5fd99937500a05bd3875b0206a540f7851d6
   languageName: node
   linkType: hard
 
-"@antora/logger@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/logger@npm:3.1.10"
+"@antora/logger@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/logger@npm:3.1.14"
   dependencies:
     "@antora/expand-path-helper": "npm:~3.0"
     pino: "npm:~9.2"
     pino-pretty: "npm:~11.2"
     sonic-boom: "npm:~4.0"
-  checksum: e8c62f82d648515416b2fa9f97d4bb1621ebfbc9ffa23f81fd71e698199134fdb54e10631c84fdadb971bde24a49ad296bdf06afa2d0ed35d8f2ad31ed91bd56
+  checksum: 920145a09d8b6b04ca00a0776db51dec2a3f8532e84a1e6ad44f16555db2a03c056d96199f6a5c98cf671e9836e4c87abd1eb0e7007fcd4259089fc69246beb6
   languageName: node
   linkType: hard
 
-"@antora/lunr-extension@npm:^1.0.0-alpha.10":
-  version: 1.0.0-alpha.10
-  resolution: "@antora/lunr-extension@npm:1.0.0-alpha.10"
+"@antora/lunr-extension@npm:^1.0.0-alpha.13":
+  version: 1.0.0-alpha.13
+  resolution: "@antora/lunr-extension@npm:1.0.0-alpha.13"
   dependencies:
     htmlparser2: "npm:~9.1"
     lunr: "npm:~2.3"
     lunr-languages: "npm:~1.10"
-  checksum: 0fd9b623c24e04fa49e757b3f9c7d8926fdf2f90d4c7e901d684c331ef5bccf98296da4927d82bd546ecd9f279f0b6b476537b88e9af6ec5e8d86fd16f3dd18c
+  checksum: 8fe47f17cc86084f4554073d8edb13ac4e97637c962d780570316aa4d203bfa91b072e6261e95efdd5acfad72456b50ab2fe2350c45ad9bc19d11c13a0829ab7
   languageName: node
   linkType: hard
 
-"@antora/navigation-builder@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/navigation-builder@npm:3.1.10"
+"@antora/navigation-builder@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/navigation-builder@npm:3.1.14"
   dependencies:
-    "@antora/asciidoc-loader": "npm:3.1.10"
-  checksum: 78d88d4587fc84d037ae99b57a61d7fad1500d6e4bd185106a8db4c973173dcaa67dfefb6800ea09436235028e32557b6faa46f6ecca77c62cac477056e40243
+    "@antora/asciidoc-loader": "npm:3.1.14"
+  checksum: bd8a9a65125d682c1a78ff5a196436aa5ca904c242f6166eec93db50cd37cb7c43571cb606f6a8fa5fb9ea2e218227b148569f7681d6ddf0517f59ede71ce85b
   languageName: node
   linkType: hard
 
-"@antora/page-composer@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/page-composer@npm:3.1.10"
+"@antora/page-composer@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/page-composer@npm:3.1.14"
   dependencies:
-    "@antora/logger": "npm:3.1.10"
+    "@antora/logger": "npm:3.1.14"
     handlebars: "npm:~4.7"
     require-from-string: "npm:~2.0"
-  checksum: de47886199aa3e03024d65b7809a34ca9d6587e86e0d1efea0fc9350a59be91e8493e564377f605105f38533f72ee03aa4779d39f104588d74909c6c7dd9cd8d
+  checksum: 7f0a96148c223448c17c24861b6cb73bc8d250a29ab6939012c8dc409552342240c087c3ccf5c1b06015bd2bf4d31f06e8ece271b4defb24acae4bb621077193
   languageName: node
   linkType: hard
 
-"@antora/playbook-builder@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/playbook-builder@npm:3.1.10"
+"@antora/playbook-builder@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/playbook-builder@npm:3.1.14"
   dependencies:
     "@iarna/toml": "npm:~2.2"
     convict: "npm:~6.2"
     js-yaml: "npm:~4.1"
     json5: "npm:~2.2"
-  checksum: bc321f12cc1380ce5934a709d788f0b03581ed2eab950635f049d37375ce6fb2070ea2fb82f47c64c76c4defd4394b0361ef0f405e1d8c9ba06b9f9a52527630
+  checksum: da40a33fe0132750c0463fcb484fe0d0392e67782597745d80ed0bfe4810b34b444234b5f8295a1b5546fc20d47fb01259e6c83188c5ca48b814ef86835f3f50
   languageName: node
   linkType: hard
 
-"@antora/redirect-producer@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/redirect-producer@npm:3.1.10"
+"@antora/redirect-producer@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/redirect-producer@npm:3.1.14"
   dependencies:
     vinyl: "npm:~3.0"
-  checksum: 02fb7858b68c0809fbc3a0b453f17ac79eb42c74a9deb48213c1f56ff129f277b36fc001b5f2f562659a8f6d1f99314f5e21b317858e12c9243e071829aca575
+  checksum: 107141d9cdc7f83f64638222482007aa93e8045c18fbaf6779dcb6f68c41d963cd72e4a217b57ff754596541aed33a8c62ce9ee8812333b72ed8da9dd02f3aab
   languageName: node
   linkType: hard
 
-"@antora/site-generator@npm:^3.1.10":
-  version: 3.1.10
-  resolution: "@antora/site-generator@npm:3.1.10"
+"@antora/site-generator@npm:^3.1.14":
+  version: 3.1.14
+  resolution: "@antora/site-generator@npm:3.1.14"
   dependencies:
-    "@antora/asciidoc-loader": "npm:3.1.10"
-    "@antora/content-aggregator": "npm:3.1.10"
-    "@antora/content-classifier": "npm:3.1.10"
-    "@antora/document-converter": "npm:3.1.10"
-    "@antora/file-publisher": "npm:3.1.10"
-    "@antora/logger": "npm:3.1.10"
-    "@antora/navigation-builder": "npm:3.1.10"
-    "@antora/page-composer": "npm:3.1.10"
-    "@antora/playbook-builder": "npm:3.1.10"
-    "@antora/redirect-producer": "npm:3.1.10"
-    "@antora/site-mapper": "npm:3.1.10"
-    "@antora/site-publisher": "npm:3.1.10"
-    "@antora/ui-loader": "npm:3.1.10"
+    "@antora/asciidoc-loader": "npm:3.1.14"
+    "@antora/content-aggregator": "npm:3.1.14"
+    "@antora/content-classifier": "npm:3.1.14"
+    "@antora/document-converter": "npm:3.1.14"
+    "@antora/file-publisher": "npm:3.1.14"
+    "@antora/logger": "npm:3.1.14"
+    "@antora/navigation-builder": "npm:3.1.14"
+    "@antora/page-composer": "npm:3.1.14"
+    "@antora/playbook-builder": "npm:3.1.14"
+    "@antora/redirect-producer": "npm:3.1.14"
+    "@antora/site-mapper": "npm:3.1.14"
+    "@antora/site-publisher": "npm:3.1.14"
+    "@antora/ui-loader": "npm:3.1.14"
     "@antora/user-require-helper": "npm:~3.0"
-  checksum: c600a51ee047876643415f0e3a31eb33a2666d1f91022c462911544e1d8caa9dba68f700eb664e526f51fb232f09a65cb76e9719305297f63508d1416080d30b
+  checksum: 673a2d79537772bb62fe970473a702fc499b6f69812ee01137fcad4770fb342de355373c3b3b6ad0502b086cbc9e2580d937b40ab9c8aec6317d1c4804596f01
   languageName: node
   linkType: hard
 
-"@antora/site-mapper@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/site-mapper@npm:3.1.10"
+"@antora/site-mapper@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/site-mapper@npm:3.1.14"
   dependencies:
-    "@antora/content-classifier": "npm:3.1.10"
+    "@antora/content-classifier": "npm:3.1.14"
     vinyl: "npm:~3.0"
-  checksum: a923d06699d354fbd12f43190cb6af4803c2a715fdb52567021cd5db46b7c2d8f68c1d8542e3ba22a0b8b3f62bb03bd1ad8692b78860a3fec9b69c22763003cc
+  checksum: e173089179f6ef0cd4c38d8b95c24ee5f2efbf4b68f8d2f8b949f92e1746e03ea91bba2af8f5f66a51a68253904281383bafb9881da848873bb4912ae608ab84
   languageName: node
   linkType: hard
 
-"@antora/site-publisher@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/site-publisher@npm:3.1.10"
+"@antora/site-publisher@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/site-publisher@npm:3.1.14"
   dependencies:
-    "@antora/file-publisher": "npm:3.1.10"
-  checksum: 905eb0c6a91684e5526a9539630839778e3294d3528fa223f4856aca46b742faad563f124407517a609d986b8e699200ebe4d2a2390a6b55f606a19c7ffb1564
+    "@antora/file-publisher": "npm:3.1.14"
+  checksum: 31e90534d9bc4aaec8bf63125273f223d53e58928e386865e89b9072ae21f2d8b56c32d84cdf37d3adbed8ca2ac30f6bd660f1cc658e679933ac336026fa7804
   languageName: node
   linkType: hard
 
-"@antora/ui-loader@npm:3.1.10":
-  version: 3.1.10
-  resolution: "@antora/ui-loader@npm:3.1.10"
+"@antora/ui-loader@npm:3.1.14":
+  version: 3.1.14
+  resolution: "@antora/ui-loader@npm:3.1.14"
   dependencies:
     "@antora/expand-path-helper": "npm:~3.0"
     braces: "npm:~3.0"
@@ -213,7 +213,7 @@ __metadata:
     simple-get: "npm:~4.0"
     vinyl: "npm:~3.0"
     yauzl: "npm:~3.1"
-  checksum: 92c0d25ac2e71bcd3e122fb437ee98005732335f57417be6240fe3a81e84c0539d26fecb50ee10fd82304175b967ecb0c021c63b7c3836a958cac456b17c7d47
+  checksum: 3dc0d90775a071b2b06cea80cc503c222d239a65aa557e8dc3bf78114047db846e9acbfe1ab82c97f6d1caaec0a797ff71733d02319f410df750a20e05c584b1
   languageName: node
   linkType: hard
 
@@ -1393,9 +1393,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@antora/cli": "npm:^3.1.10"
-    "@antora/lunr-extension": "npm:^1.0.0-alpha.10"
-    "@antora/site-generator": "npm:^3.1.10"
+    "@antora/cli": "npm:^3.1.14"
+    "@antora/lunr-extension": "npm:^1.0.0-alpha.13"
+    "@antora/site-generator": "npm:^3.1.14"
     "@asciidoctor/core": "npm:^3.0.4"
     asciidoctor-kroki: "npm:^0.18.1"
   languageName: unknown
