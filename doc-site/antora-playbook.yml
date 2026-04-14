@@ -9,13 +9,16 @@ urls:
   html_extension_style: indexify
 content:
   edit_url: '{web_url}/blob/{refname}/{path}'
-  tags: [v*, '!v*a*','!v*b*']
+  tags: [v*, '!v*a*','!v*b*', alpha]
   sources:
   # - url: https://github.com/invenhost/inventree-federation.git
   #   branches: main, dev
   #   start_path: docs
   - url: https://github.com/matmair/inventree-approval.git
     branches: main, dev
+    start_path: docs
+  - url: https://github.com/invenhost/inventree-project-management.git
+    branches: [main, alpha, dev, v*]
     start_path: docs
   - url: https://github.com/invenhost/plugins.git
     branches: [main, dev, v*]
