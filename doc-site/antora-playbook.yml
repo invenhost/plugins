@@ -7,6 +7,9 @@ site:
     umami: 84b86573-caa2-4afd-8bde-b27962a8a18f
 urls:
   html_extension_style: indexify
+#git:
+#  credentials:
+#    contents: https://github_pat_XXXX_XXXX:@github.com/invenhost/inventree-project-management
 content:
   edit_url: '{web_url}/blob/{refname}/{path}'
   tags: [v*, '!v*a*','!v*b*', alpha]
@@ -18,7 +21,7 @@ content:
     branches: main, dev
     start_path: docs
   - url: https://github.com/invenhost/inventree-project-management.git
-    branches: [alpha] # [main, alpha, dev, v*]
+    branches: alpha # [main, alpha, dev, v*]
     start_path: docs
   - url: https://github.com/invenhost/plugins.git
     branches: [main, dev, v*]
