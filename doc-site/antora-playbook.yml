@@ -18,7 +18,7 @@ content:
     branches: main, dev
     start_path: docs
   - url: https://github.com/invenhost/inventree-project-management.git
-    branches: [main, alpha, dev, v*]
+    branches: [alpha] # [main, alpha, dev, v*]
     start_path: docs
   - url: https://github.com/invenhost/plugins.git
     branches: [main, dev, v*]
