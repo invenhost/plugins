@@ -20,5 +20,8 @@
     "@types/react": "^19.2.14",
     "next-sitemap": "^4.2.3",
     "typescript": "^6.0.2"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   }
 }
